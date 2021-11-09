@@ -2,7 +2,7 @@
 A collection of shell scripts I use to automate my tasks.
 
 ## License
-This software is distributed under the [Creative Commons License](https://github.com/vbachvarov/shell-utilities/blob/main/LICENSE). By using it you consent to the terms and conditions in the latter license.
+This software is distributed under the [Creative Commons Zero License](https://github.com/vbachvarov/shell-utilities/blob/main/LICENSE). By using it you consent to the terms and conditions in the latter license.
 
 ## generate-playlist.sh
 Generates an M3U playlist file by scanning a specified directory for files.
