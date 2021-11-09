@@ -4,7 +4,7 @@
 # https://github.com/vbachvarov/shell-utilities
 #
 # License:
-# Creative Commons License, https://github.com/vbachvarov/shell-utilities/blob/main/LICENSE
+# Creative Commons Zero License, https://github.com/vbachvarov/shell-utilities/blob/main/LICENSE
 # By using this software you consent to the terms and conditions in the license above.
 #
 # Copyright 2021, vbachvarov
