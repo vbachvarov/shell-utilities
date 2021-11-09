@@ -18,7 +18,7 @@ DIR=${1:-.}
 PL=${2:-generated-playlist-$NOW.m3u}
 
 cat <<EOF
-Usage: `basename $0` [ДИРЕКТОРИЯ] [СПИСЪК ЗА ИГРА]
+Usage: `basename $0` [DIRECTORY] [PLAYLIST]
        The generated playlist is in M3U format.
 
 Generating playlist '$PL' for directory '$DIR'
