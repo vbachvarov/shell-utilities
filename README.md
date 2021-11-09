@@ -1,10 +1,19 @@
 # shell-utilities
 A collection of shell scripts I use to automate my tasks.
 
+## License
+This software is distributed under the [Creative Commons License](https://github.com/vbachvarov/shell-utilities/blob/main/LICENSE). By using it you consent to the terms and conditions in the latter license.
+
 ## generate-playlist.sh
 Generates an M3U playlist file by scanning a specified directory for files.
-
+### System requirements
+* bash, sed, awk
+* Unix OS (running under cygwin/MinGW on Windows has not been tested but should work in theory)
+### Installation
+Copy [the script](https://github.com/vbachvarov/shell-utilities/blob/main/generate-playlist.sh) anywhere on your path (for example in /bin) and set executable permissions (755).
+### Usage
 ```
-Usage: generate-playlist.sh [DIRECTORY] [PLAYLIST]
-       DIRECTORY - default is "." (the current directory)
-       PLAYLIST  - if omitted, a timestamped filename will be generated
+generate-playlist.sh [DIRECTORY] [PLAYLIST]
+       DIRECTORY - optional, default is "." (the current directory)
+       PLAYLIST  - optional, if omitted, a timestamped filename will be generated
+```
