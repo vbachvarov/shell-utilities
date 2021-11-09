@@ -17,3 +17,7 @@ generate-playlist.sh [DIRECTORY] [PLAYLIST]
        DIRECTORY - optional, default is "." (the current directory)
        PLAYLIST  - optional, if omitted, a timestamped filename will be generated
 ```
+The program will ask for confirmation before scanning the directory. You can execute it without the pause like so:
+```
+echo y | generate-playlist.sh
+```
