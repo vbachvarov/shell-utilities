@@ -1,5 +1,15 @@
 #!/usr/bin/env bash
 
+# Generates an M3U playlist file by scanning a specified directory for files.
+# https://github.com/vbachvarov/shell-utilities
+#
+# License:
+# Creative Commons License, https://github.com/vbachvarov/shell-utilities/blob/main/LICENSE
+# By using this software you consent to the terms and conditions in the license above.
+#
+# Copyright 2021, vbachvarov
+#
+
 EXCLUDED_EXTENSIONS=(.pls .m3u .wpl .sh .m3u .bmp .jpg .jpeg .git .png .tif .rtf .doc .docx .xls .xlsx .wma .txt .pdf .cue .nfo .bup .sfv .md5 .jar .log .db .torrent .htm .html .css .js .vbs .xml .ifo)
 
 NOW="`date +'%F_%H:%M:%S'`"
